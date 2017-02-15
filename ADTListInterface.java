@@ -1,4 +1,4 @@
-public interface ADTList <T> {
+public interface ADTListInterface <T> {
 	
 	  /** Adds a entry to the back of the list.
     @return   True if the object has been added to the list */
