@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
-public class VectorList<T> implements ADTList<T>{
-
+public class VectorList<T> implements ADTListInterface<T>{
 	private T[] array;
 	private int numberOfEntries = 0;
 	private boolean init = false;
