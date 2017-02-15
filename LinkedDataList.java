@@ -1,4 +1,4 @@
-public class LinkedDataList<T> implements ADTList<T> {
+public class LinkedDataList<T> implements ADTListInterface<T> {
 
 	private Node firstNode;
 	private int numberOfEntries = 0;
