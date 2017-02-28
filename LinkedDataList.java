@@ -111,7 +111,7 @@ public class LinkedDataList<T> implements ADTListInterface<T> {
 	int index = 0;
 	Node temp = firstNode;
 	while(index < numberOfEntries && firstNode != null) {
-		array[numberOfEntries] = temp.data;
+		array[index] = temp.data;
 		temp = temp.next;
 		index++;
 	}
